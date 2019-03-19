@@ -61,8 +61,8 @@ client.on('message', (message)=>{
     }
     if(message.content.startsWith(prefix + "promote")){
       message.channel.send("`Requested Promote by`"  + message.author + ". after your done paste your Form here down Bellow Thank You");
-      message.author.send("`Form` **Why do u think you will be Promoted: Your Awnser**");
-      message.author.send("`Form` **what have You done to Marino Family that others are intressted: Your Awnser**");
+      message.author.send("`Form` **Why do u think you will be Promoted: Your Answer**");
+      message.author.send("`Form` **what have You done to Marino Family that others are interested to: Your Answer**");
     }
 
 

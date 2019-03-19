@@ -71,14 +71,14 @@ client.on('message', (message)=>{
     message.channel.send("**`Command's / info`**");
     message.channel.send({embed:{
       color: 0xee00ff,
-      description: "**Help? : Marino Family / !ip **"
+      description: "**Help?: !ip !Access**"
 
     }});
     return;
 
   
       }
-      if(message.content.startsWith(prefix + "iorgher'gerererqe")){
+      if(message.content.startsWith(prefix + "Access")){
         let author = message.member;
         let role = message.guild.roles.find('name',"-Access-");
         if(author.roles.has(role.id)){

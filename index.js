@@ -82,7 +82,7 @@ client.on('message', (message)=>{
         let author = message.member;
         let role = message.guild.roles.find('name',"-Access-");
         if(author.roles.has(role.id)){
-         message.author.send("`You Have Permissions` **To Private VC this Will be Removed in 1 Day**");
+         message.author.send("`You Have Permissions` **To Private Voice Chat The Rank will be Removed in 24 Hours!!**");
           return;
    
         }else{

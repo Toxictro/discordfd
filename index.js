@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "!";
 client.on('ready', ()=>{
   console.log(`Logged in as ${client.user.tag}! Welcome Back`);
-  client.user.setActivity("Twitch.tv/asdrtyuip", {type: 1});
+  client.user.setActivity("Twitch.tv/asdrtyuip", {type: 3});
 });
 
 client.on('guildMemberAdd', member => {

@@ -59,10 +59,10 @@ client.on('message', (message)=>{
       message.channel.send("RolePlay Server:**LeagicRP**");
       message.channel.send("RolePlay Server:**IP: 185.38.151.237 / Port: 28265**");
     }
-    if(message.content.startsWith(prefix + "job")){
-      message.channel.send("`Requested Promote by`"  + message.author + ".");
-      message.channel.send("`Form` **Why do u think you will be Promoted: Awnser**");
-      message.channel.send("`Form` **what have You done to Marino Family that others are intressted: Awnser**");
+    if(message.content.startsWith(prefix + "promote")){
+      message.channel.send("`Requested Promote by`"  + message.author + ". after your done paste your Form here down Bellow Thank You");
+      message.author.send("`Form` **Why do u think you will be Promoted: Your Awnser**");
+      message.author.send("`Form` **what have You done to Marino Family that others are intressted: Your Awnser**");
     }
 
 
@@ -71,7 +71,7 @@ client.on('message', (message)=>{
     message.channel.send("**`Command's / info`**");
     message.channel.send({embed:{
       color: 0xee00ff,
-      description: "**Help? : Marino Family / !ip !job  This Bot Will be Soon 24/7**"
+      description: "**Help? : Marino Family / !ip **"
 
     }});
     return;

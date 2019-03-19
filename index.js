@@ -56,7 +56,7 @@ client.on('message', (message)=>{
   if(!message.content.startsWith(prefix)) return;
 
   if(message.content.startsWith(prefix + "ip")){
-      message.channel.send("RolePlay Server:**LeagicRP**");
+      message.channel.send("RolePlay Server:**LeagicRP / IceyRP**");
       message.channel.send("RolePlay Server:**IP: 185.38.151.237 / Port: 28265**");
     }
     if(message.content.startsWith(prefix + "promote")){
